@@ -1,7 +1,7 @@
 
 #include <locale.h>
 #include <stdio.h>
-#include "link-includes.h"
+#include "parser/link_parser/link-includes.h"
 
 int main()
 {
