@@ -60,7 +60,8 @@ void bufferTest(){
             test.get_sentence(inputBuffer);
             //std::cout << "Finish scanning!\n";
             std::cout << "Total elements of buffer: " << test.length() << "\nTotal word: " << test.wordsCount() << "\nTotal symbols: " << test.symbolsCount() << std::endl;
-            test.printList();
+//            test.printList();
+           //todo fix printList();
         }
     }
 }
@@ -111,9 +112,11 @@ int LinkedListTest(){
         test.addNode(',');
         test.addNode("lol");
         test.addNode('!');
-        test.printList();
+//        test.printList();
+        //todo fix printList();
         test[0].setContent("That");
-        test.printList();
+//        test.printList();
+        //todo fix printList();
         test[1];
         test[2];
         test[3];

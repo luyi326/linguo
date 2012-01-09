@@ -1,0 +1,168 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		ED0AFA0A14B1D7D3003C43DF /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		ED0AFA0B14B1D7D3003C43DF /* clock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = clock.hpp; sourceTree = "<group>"; };
+		ED0AFA0C14B1D7D3003C43DF /* fast-sprintf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "fast-sprintf.cpp"; sourceTree = "<group>"; };
+		ED0AFA0D14B1D7D3003C43DF /* fast-sprintf.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "fast-sprintf.hpp"; sourceTree = "<group>"; };
+		ED0AFA0E14B1D7D3003C43DF /* guiding.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = guiding.hpp; sourceTree = "<group>"; };
+		ED0AFA0F14B1D7D3003C43DF /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		ED0AFA1014B1D7D3003C43DF /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		ED0AFA1114B1D7D3003C43DF /* matrix-ut.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "matrix-ut.hpp"; sourceTree = "<group>"; };
+		ED0AFA1214B1D7D3003C43DF /* sat-encoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "sat-encoder.cpp"; sourceTree = "<group>"; };
+		ED0AFA1314B1D7D3003C43DF /* sat-encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sat-encoder.h"; sourceTree = "<group>"; };
+		ED0AFA1414B1D7D3003C43DF /* sat-encoder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "sat-encoder.hpp"; sourceTree = "<group>"; };
+		ED0AFA1514B1D7D3003C43DF /* trie.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = trie.hpp; sourceTree = "<group>"; };
+		ED0AFA1614B1D7D3003C43DF /* util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = util.cpp; sourceTree = "<group>"; };
+		ED0AFA1714B1D7D3003C43DF /* util.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = util.hpp; sourceTree = "<group>"; };
+		ED0AFA1814B1D7D3003C43DF /* variables.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = variables.cpp; sourceTree = "<group>"; };
+		ED0AFA1914B1D7D3003C43DF /* variables.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = variables.hpp; sourceTree = "<group>"; };
+		ED0AFA1A14B1D7D3003C43DF /* word-tag.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "word-tag.cpp"; sourceTree = "<group>"; };
+		ED0AFA1B14B1D7D3003C43DF /* word-tag.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "word-tag.hpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		ED0AFA0214B1D7D3003C43DF = {
+			isa = PBXGroup;
+			children = (
+				ED0AFA0A14B1D7D3003C43DF /* .DS_Store */,
+				ED0AFA0B14B1D7D3003C43DF /* clock.hpp */,
+				ED0AFA0C14B1D7D3003C43DF /* fast-sprintf.cpp */,
+				ED0AFA0D14B1D7D3003C43DF /* fast-sprintf.hpp */,
+				ED0AFA0E14B1D7D3003C43DF /* guiding.hpp */,
+				ED0AFA0F14B1D7D3003C43DF /* Makefile.am */,
+				ED0AFA1014B1D7D3003C43DF /* Makefile.in */,
+				ED0AFA1114B1D7D3003C43DF /* matrix-ut.hpp */,
+				ED0AFA1214B1D7D3003C43DF /* sat-encoder.cpp */,
+				ED0AFA1314B1D7D3003C43DF /* sat-encoder.h */,
+				ED0AFA1414B1D7D3003C43DF /* sat-encoder.hpp */,
+				ED0AFA1514B1D7D3003C43DF /* trie.hpp */,
+				ED0AFA1614B1D7D3003C43DF /* util.cpp */,
+				ED0AFA1714B1D7D3003C43DF /* util.hpp */,
+				ED0AFA1814B1D7D3003C43DF /* variables.cpp */,
+				ED0AFA1914B1D7D3003C43DF /* variables.hpp */,
+				ED0AFA1A14B1D7D3003C43DF /* word-tag.cpp */,
+				ED0AFA1B14B1D7D3003C43DF /* word-tag.hpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		ED0AFA0914B1D7D3003C43DF /* sat-solver */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = ED0AFA1C14B1D7D3003C43DF /* Build configuration list for PBXLegacyTarget "sat-solver" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/luyi/Documents/InputMethod/grammer_helper/parser/link_parser/sat-solver";
+			dependencies = (
+			);
+			name = "sat-solver";
+			passBuildSettingsInEnvironment = 1;
+			productName = "sat-solver";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		ED0AFA0414B1D7D3003C43DF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = ED0AFA0714B1D7D3003C43DF /* Build configuration list for PBXProject "sat-solver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED0AFA0214B1D7D3003C43DF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED0AFA0914B1D7D3003C43DF /* sat-solver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		ED0AFA0514B1D7D3003C43DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		ED0AFA0614B1D7D3003C43DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		ED0AFA1D14B1D7D3003C43DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "sat-solver";
+			};
+			name = Debug;
+		};
+		ED0AFA1E14B1D7D3003C43DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "sat-solver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED0AFA0714B1D7D3003C43DF /* Build configuration list for PBXProject "sat-solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0AFA0514B1D7D3003C43DF /* Debug */,
+				ED0AFA0614B1D7D3003C43DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0AFA1C14B1D7D3003C43DF /* Build configuration list for PBXLegacyTarget "sat-solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0AFA1D14B1D7D3003C43DF /* Debug */,
+				ED0AFA1E14B1D7D3003C43DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED0AFA0414B1D7D3003C43DF /* Project object */;
+}

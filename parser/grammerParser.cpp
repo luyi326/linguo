@@ -8,6 +8,8 @@
 
 #include "../basicTypes.h"
 #include "../helper.h"
+#include <cstdlib>
+
 using namespace std;
 
 #define MUTE_GPARSER
@@ -101,7 +103,7 @@ inline void graParser::wordCheck(GSentence & sentence){
     std::ostringstream oss_sentence;
     sentence.printList(oss_sentence);
     string ori_sentence = oss_sentence.str(); // ready to flush string to Link Parser (CMU)
-    parse(ori_sentence, );
+//    parse(ori_sentence); //todo implement parse()
 }
 
 void graParser::tagWithWordNet(GSentence & sentence, GDataBase & database){
