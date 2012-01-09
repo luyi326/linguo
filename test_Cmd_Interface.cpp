@@ -9,6 +9,10 @@
 #include <ctime>
 #include "Grammer_analysis.h"
 #include "helper.h"
+
+#define EXIT_SUCCESS 0
+#define EXIT_FAILURE 1
+
 using namespace std;
 void bufferTest();
 int LinkedListTest();
