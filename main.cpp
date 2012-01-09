@@ -8,6 +8,7 @@
 #include <iostream>
 #include <ctime>
 #include "basic.h"
+#include "parser/grammerParser.h"
 //#include "Grammer_analysis.h"
 
 #define EXIT_SUCCESS 0
@@ -75,6 +76,8 @@ void bufferTest(GDataBase * db){
             }
             test.printList(cout);
             cout << "\n";
+            graParser gParser;
+            gParser.wordCheck(test);
         }
     }
 }

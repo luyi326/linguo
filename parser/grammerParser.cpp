@@ -5,7 +5,7 @@
 #include <sstream>
 #include "grammerParser.h"
 #include "parserConst.h"
-
+#include "parse.h"
 #include "../basicTypes.h"
 #include "../helper.h"
 #include <cstdlib>
@@ -103,7 +103,7 @@ inline void graParser::wordCheck(GSentence & sentence){
     std::ostringstream oss_sentence;
     sentence.printList(oss_sentence);
     string ori_sentence = oss_sentence.str(); // ready to flush string to Link Parser (CMU)
-//    parse(ori_sentence); //todo implement parse()
+    parse(ori_sentence);
 }
 
 void graParser::tagWithWordNet(GSentence & sentence, GDataBase & database){

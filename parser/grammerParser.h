@@ -17,10 +17,11 @@ class graParser{
 public:
     graParser();
     void startParse(GSentence &, GDataBase &);
+    inline void wordCheck(GSentence&);
 private:
     inline void init(GSentence&);
     inline bool basicCheck(GSentence&);
-    inline void wordCheck(GSentence&);
+//    inline void wordCheck(GSentence&);
     void tagWithWordNet(GSentence&, GDataBase&);
     //inline grapar_symbol_status checkSymbol(GSentence&);
 };
