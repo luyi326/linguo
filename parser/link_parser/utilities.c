@@ -12,7 +12,7 @@
 /*                                                                       */
 /*************************************************************************/
 
-//#include <link-grammar/api.h>
+//#include "../lp_dic_path.h"
 #include "api.h"
 #include <limits.h>
 #include <locale.h>
@@ -43,7 +43,7 @@
 #ifdef _MSC_VER
 #define DICTIONARY_DIR "."
 #endif
-#define DEFAULTPATH DICTIONARY_DIR
+#define DEFAULTPATH "../data"
 
 /* This file contains certain general utilities. */
 int   verbosity;

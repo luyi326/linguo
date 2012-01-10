@@ -17,7 +17,7 @@ class graParser{
 public:
     graParser();
     void startParse(GSentence &, GDataBase &);
-    inline void wordCheck(GSentence&);
+     void wordCheck(GSentence&);
 private:
     inline void init(GSentence&);
     inline bool basicCheck(GSentence&);

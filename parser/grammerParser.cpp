@@ -99,7 +99,7 @@ inline bool graParser::basicCheck(GSentence & sentence){
 }
 
 //PASS 3: Visit database and assign those words their POS
-inline void graParser::wordCheck(GSentence & sentence){
+ void graParser::wordCheck(GSentence & sentence){
     std::ostringstream oss_sentence;
     sentence.printList(oss_sentence);
     string ori_sentence = oss_sentence.str(); // ready to flush string to Link Parser (CMU)
